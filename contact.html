@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontak Saya</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <a href="index.html" class="logo">Portofolio</a>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Profil</a></li>
+            <li><a href="portfolio.html">Portofolio</a></li>
+            <li><a href="articles.html">Artikel</a></li>
+            <li><a href="contact.html">Kontak</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <div class="section-title">
+            <h2>Hubungi Saya</h2>
+            <p>Silakan isi formulir di bawah ini untuk menghubungi saya</p>
+          </div>
+
+          <div style="display: flex; gap: 3rem">
+            <div style="flex: 1">
+              <form>
+                <div class="form-group">
+                  <label for="name" class="form-label">Nama Lengkap</label>
+                  <input type="text" id="name" class="form-control" required />
+                </div>
+                <div class="form-group">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="subject" class="form-label">Subjek</label>
+                  <input
+                    type="text"
+                    id="subject"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message" class="form-label">Pesan</label>
+                  <textarea
+                    id="message"
+                    class="form-control"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn">Kirim Pesan</button>
+              </form>
+            </div>
+            <div style="flex: 1">
+              <h3 style="margin-bottom: 1.5rem">Informasi Kontak</h3>
+              <p style="margin-bottom: 2rem">
+                Jika Anda memiliki pertanyaan atau ingin berkolaborasi dalam
+                proyek, jangan ragu untuk menghubungi saya melalui formulir atau
+                informasi kontak di bawah ini.
+              </p>
+
+              <div style="margin-bottom: 2rem">
+                <h4 style="margin-bottom: 0.5rem">
+                  <i
+                    class="fas fa-envelope"
+                    style="color: var(--primary); margin-right: 0.5rem"
+                  ></i>
+                  Email
+                </h4>
+                <p>valentinonando7@gmail.com</p>
+              </div>
+
+              <div style="margin-bottom: 2rem">
+                <h4 style="margin-bottom: 0.5rem">
+                  <i
+                    class="fas fa-phone"
+                    style="color: var(--primary); margin-right: 0.5rem"
+                  ></i>
+                  Telepon
+                </h4>
+                <p>+62 812 3456 7890</p>
+              </div>
+
+              <div>
+                <h4 style="margin-bottom: 1rem">
+                  <i
+                    class="fas fa-share-alt"
+                    style="color: var(--primary); margin-right: 0.5rem"
+                  ></i>
+                  Media Sosial
+                </h4>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="https://github.com/ininando"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                  <a href="https://www.instagram.com/nandovlntnoo_"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Vernando Werot. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
